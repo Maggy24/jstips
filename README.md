@@ -65,7 +65,6 @@ var user = new myFunc();
 
 user.hasOwnProperty('name'); // true
 user.hasOwnProperty('age'); // false, because age is from the prototype chain
-user.prototype.hasOwnPorperty('age'); //true
 ```
 
 Check here the [live examples](https://jsbin.com/tecoqa/edit?js,console)!
